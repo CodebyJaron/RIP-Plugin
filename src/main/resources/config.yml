@@ -1,0 +1,30 @@
+settings:
+  despawn:
+    after: 10
+    unit: SECONDS
+    notify-if-not-collected:
+      every: 1
+      unit: MINUTES
+    public-broadcast:
+      after: 5
+      unit: MINUTES
+  dynamic-size: true
+  hologram:
+    - "&4&l{victim}'s Deathchest"
+    - "&7Despawns in &c{timeleft}s"
+  death-key:
+    key-item:
+      material: STICK
+      name: "&4&lDeath Key"
+      lore:
+        - "&7This key can be used to open"
+        - "&7a &cDeathChest&7."
+      enchantments:
+        - "UNBREAKING:1"
+    items:
+      0: "TOTEM_OF_UNDYING"
+      1: "EMERALD"
+    pattern:
+      - "01X"
+      - "XXX"
+      - "XXX"

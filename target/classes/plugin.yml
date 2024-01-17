@@ -1,0 +1,6 @@
+name: DeathChest
+version: 1.0.0
+main: nl.bamischrijft.rip.Main
+description: Plugin for Devroom trial
+author: BamiSchijf
+depend: [helper]
